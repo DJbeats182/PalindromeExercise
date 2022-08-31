@@ -13,6 +13,9 @@ namespace PalindromeExerciseTests
         [InlineData("palindrome", false)]
         [InlineData("deified", true)]
         [InlineData("redivider", true)]
+        [InlineData("cake", false)]
+        [InlineData("nurses run", true)]
+        [InlineData("do geese see god", true)]
         public void IsPalindromeTest(string value, bool expected)
         {
             //Arrange
