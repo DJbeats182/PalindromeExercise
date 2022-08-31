@@ -9,7 +9,7 @@ namespace PalindromeExercise
     {
         public bool IsPalindrome(string value)
         {
-            var empt = value.Replace(" ", string.Empty);
+            var empt = value.Replace(" ", "");
             return empt.ToLower().SequenceEqual(empt.Reverse()); 
         }
     }
